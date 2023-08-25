@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+background-color: #4e4e4e;
+background-image: linear-gradient(90deg, #4e4e4e 0%, #ffffff 100%);
+
+
+}
+main {
+  text-align: center; 
+}
+div {  
+  border-radius: 5px;
+  margin-top: 50px;
+  height: 250px; 
+  width: 80%;
+  outline: 1px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 10px gray ,-3px -3px 10px rgb(255, 255, 255);
+  margin:auto;
+  margin-top: 25px;
+}
+div:hover{
+
+  transform: scale(0.99);
+ transition: ease-in 0.4s;
+ outline: 5px outset gray;
+
+}
+h1 {
+  font-family: "Rubik Vinyl", cursive;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+img {
+  padding: 15px;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+button {
+  float: right;
+
+  padding: 5px 15px;
+  margin-top: 1rem;
+  background-color: rgba(99, 77, 221, 0.5);
+  border: none;
+  border-radius: 5rem;  
+}
+button a{
+  color: azure;
+}
+button:hover{
+  background-color:rgb(196, 133, 40) ; 
+  outline: 2px double rgb(109, 109, 112);
+  outline-offset: 5px;
+  transition: ease-in 0.4s;
+  transform: scale(1.2);
+
+
+}
+button a:hover{
+  color:rgb(0, 0, 0);
+}
+button a:active{
+  color: rgb(43, 226, 150);
+}
+section{
+ padding: 15px;
+  }
+p{
+  margin-top: 5px;
+  word-spacing: 5px;
+}
